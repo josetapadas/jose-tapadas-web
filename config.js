@@ -12,17 +12,13 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
-      path: '/'
-    },
-    {
       label: 'About me',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
+      label: 'Articles',
+      path: '/'
+    },
   ],
   author: {
     name: 'josé tapadas alves',
