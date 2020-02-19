@@ -30,12 +30,4 @@ Heavily worked as the interface with customers since day one, gathering specs, p
 
 The main development stack is ReactJS, TypeScript, Ruby on Rails, Python, React Native and AngularJS.
 
-Some of the projects may be showcased at:
-
-\- \[https://www.cribdilla.com/](Cribdilla) \[NodeJS, ReactJS, WebRTC, Django]
-
-\- \[https://www.shermanscruise.com/}(Shermans Cruise) [RoR, ReactJS, ElasticSearch, Chef, Redis, AWS, MySQL]
-
-\- \[https://www.hiclark.com/blog/introducing-clark-3/](Clark) \[React Native]
-
-\- \[https://www.mylola.com/](My LOLA) \[RoR, AngularJS, PostgreSQL]
+Some of the projects I've developed may be showcased at: [Cribdilla](https://www.cribdilla.com) *\[NodeJS, ReactJS, WebRTC, Django]*, [Shermans Cruise](https://www.shermanscruise.com/)* \[RoR, ReactJS, ElasticSearch, Chef, Redis, AWS, MySQL]*, [Clark](https://www.hiclark.com/blog/introducing-clark-3) *\[React Native]*, [My Lola](https://www.mylola.com/) *[RoR, AngularJS, PostgreSQL]*, [Grand Central Optical](https://www.grandcentraloptical.com/woman-optical) *[RoR]*.
