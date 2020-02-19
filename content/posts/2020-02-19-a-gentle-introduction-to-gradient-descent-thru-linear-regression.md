@@ -22,6 +22,8 @@ tags:
   - mathematics
   - python
 ---
+![gradient descent](/media/seb1.jpg "Génesis | © Sebastião Salgado")
+
 To have a glimpse on the intricate nature of the reality that surrounds us, to understand the underlying relations between events or subjects, or even to assess the influence of a specific phenomenon on an arbitrary event, we must convolute reality into the information dimension attempting to leverage our human abstractions to somehow grasp some insights on the nature of what actually surrounds us.
 
 In this article we will briefly analyze one simple statistical tool that allows us to model a slice of reality by trying to assess, based on a set of **Observations**, how we can leverage a set of **Variables** to properly generate a model that will predict or forecast a behavior, by inferring about the variables relations and mutual influence. This statistical tool is called **Linear Regression**.
@@ -44,11 +46,11 @@ A linear function can then be defined by the simple expression:
 
 ![](https://cdn-images-1.medium.com/max/2000/0*zrh3JctOBl2tIC8-)
 
-With the constant *m* representing the slope of the function line and *b *usually referred as the intercept. Some examples can be seen below for showcasing different values of *(m, b)*:
+With the constant *m* representing the slope of the function line and *b* usually referred as the intercept. Some examples can be seen below for showcasing different values of *(m, b)*:
 
 ![Figure 2) Three examples of slopes and intercepts for a linear function](https://cdn-images-1.medium.com/max/2560/1*p204GeqDZvirikOMS81JZw.png)*Figure 2) Three examples of slopes and intercepts for a linear function*
 
-In this example above we can see that changing *m *influences the slope of the resultant value, as well as the intercept *b* who modifies the function value when crossing *x = 0*.
+In this example above we can see that changing *m* influences the slope of the resultant value, as well as the intercept *b* who modifies the function value when crossing *x = 0*.
 
 On our current scenario, as the variation of the salaries are not indeed represented by a linear progression, nevertheless, looking to the data shape on Figure 1, it would be acceptable to approximate the predicted resulting salaries by *fitting a line* within the points progression in a way that:
 
@@ -62,17 +64,16 @@ To this “linear” representation of a basic model that represents relationshi
 
 ### The Cost of our Errors
 
-Now that we’ve identified what shape we’ll be using to generate our model we must then try to figure out what are the values of ***(m, b) ***that would better describe the evolution of our data prediction model.
+Now that we’ve identified what shape we’ll be using to generate our model we must then try to figure out what are the values of ***(m, b)*** that would better describe the evolution of our data prediction model.
 
 But how can we choose the values of *m* and *b* that would generate us the line we search for? An approach would be to compute the errors between the values our model generates and the actual data we have in place.
 
 A simplistic approach for representation purposes only could be:
 
-* we know that developer with a around ***10** years of experience* earns** **around ***72K **euros of yearly salary *(1)
-
+* we know that developer with a around **\*10** years of experience\* earns\** **around ***72K **euros of yearly salary* (1)
 * starting with a example slope and intercept of *(m, b) = (3, 35)*
 
-A sample error function, for this specific data point of 10 years of experience *(x=10)* our error **E **would be:
+A sample error function, for this specific data point of 10 years of experience *(x=10)* our error **E** would be:
 
 ![](https://cdn-images-1.medium.com/max/2000/0*2ouOeqCJnU4mSMWd)
 
@@ -83,14 +84,12 @@ For all of our existing sample data points, we can then compute the error that t
 with:
 
 * ***n*** being the total samples of our data set
-
 * ***y*** being the actual salary value for a specific observation
-
 * ***x*** being the number of experience years that we want to predict for ***y***
 
-To this sum of the squared differences between each observation and its group’s mean, that would represent our **Error Function **(or **Cost Function**), we name the *sum of the squared differences between each observation and its group’s mean*: **Sum of Squared Errors (SSE).** In statistics, this mean squared error is very useful to assess the “quality” of our prediction values against real observations.
+To this sum of the squared differences between each observation and its group’s mean, that would represent our **Error Function** (or **Cost Function**), we name the *sum of the squared differences between each observation and its group’s mean*: **Sum of Squared Errors (SSE).** In statistics, this mean squared error is very useful to assess the “quality” of our prediction values against real observations.
 
-But how can we then proceed on finding the proper values for *m *and* b? *An intuitive approach could be, as we are now able to compute an **Error Function**, to find the pair of *(m, b)* that minimizes this function. If so, we can then clearly state that we have a prediction that produces the minimal error and therefore more closely represent reality.
+But how can we then proceed on finding the proper values for *m* and *b?* An intuitive approach could be, as we are now able to compute an **Error Function**, to find the pair of *(m, b)* that minimizes this function. If so, we can then clearly state that we have a prediction that produces the minimal error and therefore more closely represent reality.
 
 Let us then choose two random values for *(m, b)*, compute the cost function and then change these values to try to find the minimum of our error function. Let us consider initially (m, b) = (3, 0), and our data points from Figure 1, we obtain the following graphical result:
 
@@ -99,9 +98,7 @@ Let us then choose two random values for *(m, b)*, compute the cost function and
 From the above figure we can see:
 
 * the green dots representing our **observed data values** for the salaries
-
-* the blue line we have our **prediction model** (*y = 3 * years of experience + 0*)
-
+* the blue line we have our **prediction model** (*y = 3*  years of experience + 0*)
 * the dotted red line represent our **Error** for the current parameters *(m, b)*
 
 For this specific set of intercept and slope, let us now compute our accumulated cost, for the existing observations:
@@ -118,13 +115,13 @@ With an associated cost of ***E = 232.5***. We can clearly see that by updating 
 
 ![Figure 6) Computing the errors by varying the value of the intercept](https://cdn-images-1.medium.com/max/3424/1*XmjRRjxz7rd0BFSLQEosyw.png)*Figure 6) Computing the errors by varying the value of the intercept*
 
-As we can see from the figure above, as we increase the value of the intercept* b *we can also observe the changes on the cost function. On this specific example it is trivial to identify the pink line with* (m, b) = (3, 30)* to be the more accurate prediction of our observed values, as it also has the lower cost value.
+As we can see from the figure above, as we increase the value of the intercept *b* we can also observe the changes on the cost function. On this specific example it is trivial to identify the pink line with *(m, b) = (3, 30)* to be the more accurate prediction of our observed values, as it also has the lower cost value.
 
-By plotting the variation of the error cost-function, obtained by varying the *intercept *value, we are presented with the following figure:
+By plotting the variation of the error cost-function, obtained by varying the *intercept* value, we are presented with the following figure:
 
 ![Figure 7) Evolution of the cost function when changing the intercept value](https://cdn-images-1.medium.com/max/2560/1*LDb9GkxOlEF6cnNzK0ekZQ.png)*Figure 7) Evolution of the cost function when changing the intercept value*
 
-We can clearly see that, when varying the value of *b*, taking into account that our Error Function is convex, we are then able to find a local minimum that will represent the minimal error of our prediction model. In this simple demonstration above it is clear to state that the intercept *b* that minimizes our error is somewhere between [30, 40]. Unfortunately, simply iterating, with a pre-defined step, in order to find this minimum is very expensive and time consuming.
+We can clearly see that, when varying the value of *b*, taking into account that our Error Function is convex, we are then able to find a local minimum that will represent the minimal error of our prediction model. In this simple demonstration above it is clear to state that the intercept *b* that minimizes our error is somewhere between \[30, 40]. Unfortunately, simply iterating, with a pre-defined step, in order to find this minimum is very expensive and time consuming.
 
 But how can we then compute this minimum of our cost function more cleverly? We’ll then be using the **Gradient Descent** algorithm.
 
@@ -139,11 +136,8 @@ A very nice example to explain the logic behind this algorithm, and recurrent in
 As the alpinist is blind, he will be assessing about the inclination of his current position in order to choose the magnitude of the next step he should take:
 
 * if the inclination of the mountain (slope) of his current position is high, he can safely take a big step *(as we can notice for example on the transition from the 1st step to the 2nd)*
-
 * when the slope is getting smaller, as he reaches the top of the mountain, he knows he needs to take smaller steps in order to reach approximately to the exact higher point (*as the alpinist is getting closer to the top, from the 6th to the 7th step he is more careful on how to increase his position)*
-
 * for positive slopes he needs to keep on going upwards to the top
-
 * for negative slopes, he is going down, so he needs to go back to the top
 
 The slope of the “mountain” at a given point, is then given by the derivative of that function on a specific point:
@@ -178,7 +172,7 @@ Now that we have our derivative function, let us first compute the slope for a r
 
 ![](https://cdn-images-1.medium.com/max/2000/0*v876htta1Dp3ai4e)
 
-With this we know that, when the intercept is 0, the slope of the tangential line on this point, on our cost function is then **-69**. As soon as we approach the minimum of the function, this slope would then be also close to 0.
+With this we know that, when the intercept is 0, the slope of the tangential line on this point, on our cost function is then **\-69**. As soon as we approach the minimum of the function, this slope would then be also close to 0.
 
 From our alpine example we understood that the size of the step we should take should be somehow related with the slope at a given point. This has the **objective of giving “bigger” steps when the slope is higher and we are far from the minimum, and giving “smaller” steps when we are getting closer to a null slope**.
 
@@ -206,22 +200,23 @@ As the slope is closer to 0 we can then understand that we are actually moving c
 
 Doing a couple of iterations we obtain:
 
-    **Step Size(2)** = -41.4 * 0.2 = -8.28
-    **b(2)** = 13.8 - (-8.28) = 22.08
-    **dE(22.08)/db** = -24.8
+```
+**Step Size(2)** = -41.4 * 0.2 = -8.28
+**b(2)** = 13.8 - (-8.28) = 22.08
+**dE(22.08)/db** = -24.8
 
-    **Step Size(3)** = -24.8 * 0.2 = -4.96
-    **b(3) **= 22.08 - (-4.96) = 27.04
-    **dE(27.04)/db** = -14.8
+**Step Size(3)** = -24.8 * 0.2 = -4.96
+**b(3) **= 22.08 - (-4.96) = 27.04
+**dE(27.04)/db** = -14.8
 
-    **Step Size(4)** = -14.8 * 0.2 = -2.96
-    **b(4)/db** = 27.04 - (-2.96)= 30
-    **dE(30)/db** = -9
+**Step Size(4)** = -14.8 * 0.2 = -2.96
+**b(4)/db** = 27.04 - (-2.96)= 30
+**dE(30)/db** = -9
+```
 
 We can verify from this 3 iterations the following:
 
 * every step we are approaching a smaller absolute slope
-
 * as we approach a 0 slope we are doing smaller steps, by keeping the same learning rate
 
 And visually we can see that for each iteration we are getting closer to a prediction line of our data-set, and the steps are actually getting smaller:
@@ -231,30 +226,31 @@ And visually we can see that for each iteration we are getting closer to a predi
 In order to properly stop the iterations, to a certain acceptable value one should:
 
 * decide what would be the minimal step size per iteration, e.g., stop if the step size is smaller than 0.001
-
 * stop when we reach a certain number of iterations
 
 By applying these rules we can verify that the algorithm stops a few iterations later:
 
-    **[+] Iteration 5:**
+```
+**[+] Iteration 5:**
 
-    **Step Size** = -0.592
-    **b = **30.592
-    **dE/db** = -7.8160000000000025
+**Step Size** = -0.592
+**b = **30.592
+**dE/db** = -7.8160000000000025
 
-    **[+] Iteration 6:**
+**[+] Iteration 6:**
 
-    **Step Size** = -0.1184
-    **b = ** 30.7104
-    **dE/db** = -7.579200000000007
+**Step Size** = -0.1184
+**b = ** 30.7104
+**dE/db** = -7.579200000000007
 
-    *(...)*
+*(...)*
 
-    **[+] Iteration 9:**
+**[+] Iteration 9:**
 
-    **Step Size** = -0.0009472000000000001
-    **b = **30.7397632
-    **dE/db** = -7.5204736000000025
+**Step Size** = -0.0009472000000000001
+**b = **30.7397632
+**dE/db** = -7.5204736000000025
+```
 
 Stabilizing with an intercept of ***b = 30.7397632***. When plotted we obtain:
 
@@ -299,16 +295,13 @@ In order to do it so, we need then to extrapolate what we had done for the inter
 In order to implement this small algorithm we will need also to tweak all the initial values. A proper limit to stop value should also be decided. Let us, for our example decide on:
 
 * the initial **intersect** as ***b = 30***
-
-* the initial **slope **as ***m = 3***
-
+* the initial **slope** as ***m = 3***
 * our **learning rate** will then be ***0.001***
-
 * and we will stop when the learning rate reaches **0.00001**
 
 This can be represented by this simplistic python script:
 
-```
+```python
 # initial values 
 b = 30
 m = 3 
@@ -340,32 +333,20 @@ while abs(step_size_m) > limit:
     print("m", m)
     print("dm", dm)
     print("step_size_m", step_size_m)
-` `
+```
 
 Running this simple script we obtain the following output:
 
 ```
-(...)
-******** iteration:  9627
-b 40.5477332957581
-db -0.1498389928015449
-step_size_b -0.0001498886519173439
-m 2.5101777752144017
-dm 0.009998099352959144
+(...) **\*\*\*\*** iteration:  9627 b 40.5477332957581 db -0.1498389928015449 step_size_b -0.0001498886519173439 m 2.5101777752144017 dm 0.009998099352959144
 step_size_m 1.0001412888360762e-05
-******** iteration:  9628
-b 40.547883134750904
-db -0.14978935013814976
-step_size_b -0.0001498389928015449
-m 2.510167777115049
-dm 0.009994786915790144
+**\*\*\*\*** iteration:  9628 b 40.547883134750904 db -0.14978935013814976 step_size_b -0.0001498389928015449 m 2.510167777115049 dm 0.009994786915790144
 step_size_m 9.998099352959145e-06
 ```
 
 Obtaining then the following predicted values, for both our variables:
 
 * **Slope (m)= 2.5101**
-
 * **Intersect (b) = 40.5478**
 
 Applying these values to our prior plots containing the error spread we obtain the following:
@@ -379,3 +360,7 @@ We can then see from the figure above that our (linear) prediction is now way mo
 We can try to make an initial prevision about the natural relation of a set of parameters, and even obtain a simplistic model of evolution, by using **Linear Regression**. On this article we tried to then use this simple numerical method as a way to clearly expose the basic functioning of the **Gradient Descent** algorithm and mainly how we **can achieve an iterative optimization of a prediction by trying to minimize a convergent error function**.
 
 Even though its owned concepts may present themselves as very simplistic, both conceptually and mathematically, they serve as one of the foundational basis to deep learning and neural networks.
+
+```
+
+```
