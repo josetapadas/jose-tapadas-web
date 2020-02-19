@@ -49,7 +49,7 @@ Some of the projects I've developed may be showcased at:
 
 #### *september 2012 - october 2014: Schibsted Media Group*
 
-Worked as a full stack developer with serverside rendered views with custom C templating engine, a C transaction server, specific Apache modules and PostgreSQL stored procedures.
+Worked as a full stack developer on a custom C templating engine, a C transaction server, specific custom Apache modules and PostgreSQL stored procedures.
 
 Built a custom RoR RESTful API that used plain ruby objects. Some specific models also subclassed SuperModel for querying and serialisation. Developed full integration tests using RSpec and Capybara-Poltergeist + PhantomJS stack.
 
