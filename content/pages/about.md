@@ -15,8 +15,7 @@ I am working at [UBS](https://www.ubs.com) (Zürich, Switzerland) as a senior UI
 
 Have been as well mentoring as a *Praxisausbilder* for apprentices joining UBS.
 
-
-
+### education
 
 ![ist](/media/ist.png)
 
