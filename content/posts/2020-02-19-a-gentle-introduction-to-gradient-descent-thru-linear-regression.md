@@ -24,7 +24,7 @@ tags:
 ---
 To have a glimpse on the intricate nature of the reality that surrounds us, to understand the underlying relations between events or subjects, or even to assess the influence of a specific phenomenon on an arbitrary event, we must convolute reality into the information dimension attempting to leverage our human abstractions to somehow grasp some insights on the nature of what actually surrounds us.
 
-In this article we will briefly analyze one simple statistical tool that allows us to model a slice of reality by trying to assess, based on a set of **Observations, **how we can leverage a set of **Variables** to properly generate a model that will predict or forecast a behavior, by inferring about the variables relations and mutual influence. This statistical tool is called **Linear Regression**.
+In this article we will briefly analyze one simple statistical tool that allows us to model a slice of reality by trying to assess, based on a set of **Observations**, how we can leverage a set of **Variables** to properly generate a model that will predict or forecast a behavior, by inferring about the variables relations and mutual influence. This statistical tool is called **Linear Regression**.
 
 In order to help minimizing the errors associated with the prediction model, optimizing it to better represent reality, we will also be briefly showing a simple application of **Gradient Descent** optimization algorithm.
 
@@ -308,11 +308,59 @@ In order to implement this small algorithm we will need also to tweak all the in
 
 This can be represented by this simplistic python script:
 
-<iframe src="https://medium.com/media/3cee9e9fab6833248c9ded5f8e68b4c5" frameborder=0></iframe>
+```
+# initial values 
+b = 30
+m = 3 
+db = 1
+dm = 1
+
+limit = 0.00001
+learning_rate = 0.001
+
+step_size_b = -3
+step_size_m = -3
+
+i = 0
+
+while abs(step_size_m) > limit:
+    i += 1
+    
+    step_size_b = db * learning_rate
+    b = b - step_size_b
+    db = (1/4) * ((-2*(50-(m*5+b))-2*(72-(m*10+b))-2*(76-(m*15+b))-2*(90-(m*20+b))))
+    print("******** iteration: ", i)
+    print("b", b)
+    print("db", db)
+    print("step_size_b", step_size_b)
+
+    step_size_m = dm * learning_rate
+    m = m - step_size_m
+    dm = (1/4) * (-10*(50-(m*5+b))-20*(72-(m*10+b))-30*(76-(m*15+b))-40*(90-(m*20+b)))
+    print("m", m)
+    print("dm", dm)
+    print("step_size_m", step_size_m)
+` `
 
 Running this simple script we obtain the following output:
 
-<iframe src="https://medium.com/media/9108a4d4cbd90c8249fad94a12652bee" frameborder=0></iframe>
+```
+(...)
+******** iteration:  9627
+b 40.5477332957581
+db -0.1498389928015449
+step_size_b -0.0001498886519173439
+m 2.5101777752144017
+dm 0.009998099352959144
+step_size_m 1.0001412888360762e-05
+******** iteration:  9628
+b 40.547883134750904
+db -0.14978935013814976
+step_size_b -0.0001498389928015449
+m 2.510167777115049
+dm 0.009994786915790144
+step_size_m 9.998099352959145e-06
+```
 
 Obtaining then the following predicted values, for both our variables:
 
