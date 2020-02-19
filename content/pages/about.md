@@ -1,13 +1,12 @@
 ---
 template: page
 title: about me
-slug: about-me
+slug: about
 draft: false
-socialImage: '/photo.jpg'
 ---
 I am recovering Electrotechnical engineer turned software developer. Professionally, for the past years, I've been working mostly as a full stack developer, working with Ruby on Rails and ReactJS.
 
-Currently I'm broadening my academical knowledge and experience in the fields of Deep Learning and statistics.
+Currently I'm broadening my academical knowledge and experience in the fields of Deep Learning and Statistics.
 
 ![ubs](/media/ubs.png)
 
@@ -15,13 +14,15 @@ I am working at [UBS](https://www.ubs.com) (Zürich, Switzerland) as a senior UI
 
 Have been as well mentoring as a *Praxisausbilder* for apprentices joining UBS.
 
+
 ![ist](/media/ist.png)
 
-Graduated as a MSc in Electrical and Computer Engineering (major: Telecommunication Systems, minor: Computer Science) at [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/), Lisbon.
+I've graduated as a MSc in Electrical and Computer Engineering (major: Telecommunication Systems, minor: Computer Science) at [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/), Lisbon.
 
 My majoring focused mostly on signal processing and propagation. Culminating with the study and analysis of the electromagnetic phenomena in media with negative permeability and permittivity and all the theoretical inferance on how media with such characteristcs lead into some physical effects.
 
 * Publication: [Metamaterials with Negative Permeability and Permittivity: Analysis and Applications](https://dspace.ist.utl.pt/bitstream/2295/792766/1/dissertacao.pdf)
+
 
 ### past work
 
