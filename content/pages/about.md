@@ -1,13 +1,21 @@
 ---
-title: "About me"
-template: "page"
-socialImage: "/media/image-2.jpg"
+template: page
+title: about me
+slug: about
+draft: true
 ---
+## education
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+![ist](/media/ist.jpg)
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
+MSc in Electrical and Computer Engineering (major: Telecommunication Systems, minor: Computer Science) at [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/), Lisbon.
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+Majoring thesis consisted on the study and analysis of the electromagnetic phenomena in media with negative permeability and permittivity. The theoretical inferance on how media with such characteristcs lead into some physical phenomena such as the appearance of backward waves and the emergence and implications of negative refraction: 
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+* [Metamaterials with Negative Permeability and Permittivity: Analysis and Applications](https://dspace.ist.utl.pt/bitstream/2295/792766/1/dissertacao.pdf)
+
+## work
+
+![ubs](/media/ubs.png)
+
+I working since January of 2018, at [UBS](https://www.ubs.com) Zürich as a senior UI developer. Mainly develop the new set of e-banking applications in ReactJS.
