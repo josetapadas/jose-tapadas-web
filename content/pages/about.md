@@ -18,4 +18,4 @@ Majoring thesis consisted on the study and analysis of the electromagnetic pheno
 
 ![ubs](/media/ubs.png)
 
-I working since January of 2018, at [UBS](https://www.ubs.com) Zürich as a senior UI developer. Mainly develop the new set of e-banking applications in ReactJS.
+I working since January of 2018, at [UBS](https://www.ubs.com) Zürich as a senior UI developer. Mainly designing and developing tailored ReactJS applications for multiple digital banking contexts.
