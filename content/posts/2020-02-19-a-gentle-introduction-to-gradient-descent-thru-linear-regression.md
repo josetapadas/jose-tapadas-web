@@ -16,7 +16,7 @@ description: >-
   In order to help minimizing the errors associated with the prediction model,
   optimizing it to better represent reality, we will also be briefly showing a
   simple application of Gradient Descent optimization algorithm.
-category: 'machine learning, python, mathematics'
+category: mathematics
 tags:
   - machine learning
   - mathematics
