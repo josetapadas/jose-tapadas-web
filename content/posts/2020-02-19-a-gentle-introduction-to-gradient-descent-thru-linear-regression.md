@@ -2,7 +2,7 @@
 template: post
 title: A gentle introduction to gradient descent thru linear regression
 slug: a-gentle-introduction-to-gradient-descent-thru-linear-regression
-draft: true
+draft: false
 date: 2019-10-31T20:45:08.551Z
 description: >-
   In this article we will briefly analyze one simple statistical tool that
