@@ -31,11 +31,12 @@ Heavily worked as the interface with customers since day one, gathering specs, p
 The main development stack is ReactJS, TypeScript, Ruby on Rails, Python, React Native and AngularJS.
 
 Some of the projects I've developed may be showcased at:
-- [Cribdilla](https://www.cribdilla.com) *[NodeJS, ReactJS, WebRTC, Django]*
-- [Shermans Cruise](https://www.shermanscruise.com/) *[RoR, ReactJS, ElasticSearch, Chef, Redis, AWS, MySQL]*
-- [Clark](https://www.hiclark.com/blog/introducing-clark-3) *[React Native]*
-- [My Lola](https://www.mylola.com/) *[RoR, AngularJS, PostgreSQL]*
-- [Grand Central Optical](https://www.grandcentraloptical.com/woman-optical) *[RoR]*
+
+* [Cribdilla](https://www.cribdilla.com) *\[NodeJS, ReactJS, WebRTC, Django]*
+* [Shermans Cruise](https://www.shermanscruise.com/) *\[RoR, ReactJS, ElasticSearch, Chef, Redis, AWS, MySQL]*
+* [Clark](https://www.hiclark.com/blog/introducing-clark-3) *\[React Native]*
+* [My Lola](https://www.mylola.com/) *\[RoR, AngularJS, PostgreSQL]*
+* [Grand Central Optical](https://www.grandcentraloptical.com/woman-optical) *\[RoR]*
 
 #### *september 2012 - october 2014: Schibsted Media Group*
 
@@ -56,3 +57,11 @@ We had a RoR (non-ActiveRecord-ish) RESTful API that used plain ruby objects (wi
 Developed the new responsive website and refactored the stylesheet bundles fully with SASS.
 
 I’ve also developed, remotely on a global Schibsted team, the second version of the [CustoJusto’s Android app](https://play.google.com/store/apps/details?id=com.schibsted.iberica.custojusto&hl=en).
+
+#### *january 2011 - september 2012: Ericsson*
+
+![](/media/ericsson.png)
+
+Worked as an integration engineer of OSS/BSS middleware solutions and costumer adaptations. The role was to basically design and develop software solutions (mostly in Java EE) to enable proprietary networknodes and systems integration. (namely: Charging System (3.0 - 5.0) \[CS], IP Multimedia Subsystem \[IMS], Multi Activation (5.0 – 6.3) \[EMA] and Multi Mediation \[MM]).
+
+I was placed, during projects, in the Optimus’ IS and Portugal Telecom teams as an external Ericsson resource, and worked remotely for the Charging System Unitel team.
