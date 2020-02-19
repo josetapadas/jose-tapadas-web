@@ -5,7 +5,7 @@ slug: about
 draft: false
 socialImage: 'photo.jpg'
 ---
-I am recovering Electrotechnical engineer turned software developer. Professionally, for the past years, I've been working mostly as a full stack developer, maily working with Ruby on Rails, Python, C and ReactJS.
+I am recovering Electrotechnical engineer turned software developer. Professionally, for the past years, I've been working mostly as a full stack developer, maily working with Ruby on Rails, Python and ReactJS.
 
 Currently I'm broadening my academical knowledge and experience in the fields of Deep Learning and Statistics.
 
@@ -14,6 +14,8 @@ Currently I'm broadening my academical knowledge and experience in the fields of
 I am working at [UBS](https://www.ubs.com) (Zürich, Switzerland) as a senior UI developer. Mainly designing and developing tailored ReactJS applications for the multiple digital banking contexts.
 
 Have been as well mentoring as a *Praxisausbilder* for apprentices joining UBS.
+
+
 
 
 ![ist](/media/ist.png)
@@ -31,9 +33,7 @@ My majoring focused mostly on signal processing and propagation. Culminating wit
 
 My main role at [Runtime Revolution](https://www.runtime-revolution.com/) was to design and develop custom tailored applications, mostly using Ruby on Rails and ReactJS.
 
-Heavily worked as the interface with customers since day one, gathering specs, planning and developing those applications.
-
-My role was also involved building, managing and working with small to medium teams of developers. 
+Heavily worked as the interface with customers since day one, gathering specs, planning and developing those applications. My role was also required building, managing and working with small to medium teams of developers. 
 
 I was also part of the staffing and recruiting team, helping as well on the technical education and integration of junior developers.
 
