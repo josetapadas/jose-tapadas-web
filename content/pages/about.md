@@ -2,7 +2,7 @@
 template: page
 title: about me
 slug: about
-draft: true
+draft: false
 ---
 ## education
 
