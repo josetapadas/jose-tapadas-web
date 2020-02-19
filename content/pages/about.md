@@ -3,6 +3,7 @@ template: page
 title: about me
 slug: about
 draft: false
+socialImage: 'photo.jpg'
 ---
 I am recovering Electrotechnical engineer turned software developer. Professionally, for the past years, I've been working mostly as a full stack developer, working with Ruby on Rails and ReactJS.
 
