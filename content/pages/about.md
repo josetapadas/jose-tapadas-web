@@ -5,13 +5,13 @@ slug: about
 draft: false
 socialImage: 'photo.jpg'
 ---
-I am recovering Electrotechnical engineer turned software developer. Professionally, for the past years, I've been working mostly as a full stack developer, maily working with Ruby on Rails, Python and ReactJS.
+I am recovering Electrotechnical engineer turned software developer. Professionally for the past years I've been working mostly as a full stack developer, specifically with Ruby on Rails, Python and ReactJS.
 
 Currently I'm broadening my academical knowledge and experience in the fields of Deep Learning and Statistics.
 
 ![ubs](/media/ubs.png)
 
-I am working at [UBS](https://www.ubs.com) (Zürich, Switzerland) as a senior UI developer. Mainly designing and developing tailored ReactJS applications for the multiple digital banking contexts.
+I am working at [UBS](https://www.ubs.com) (Zürich) as a senior UI developer. Mainly designing and developing tailored ReactJS applications for the multiple digital banking contexts.
 
 Have been as well mentoring as a *Praxisausbilder* for apprentices joining UBS.
 
@@ -21,7 +21,7 @@ Have been as well mentoring as a *Praxisausbilder* for apprentices joining UBS.
 
 I've graduated as a MSc in Electrical and Computer Engineering (major: Telecommunication Systems, minor: Computer Science) at [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/), Lisbon.
 
-My majoring focused mostly on signal processing and propagation. Culminating with the study and analysis of the electromagnetic phenomena in media with negative permeability and permittivity and all the theoretical inferance on how media with such characteristcs lead into some physical effects.
+My majoring focused mostly on signal processing and propagation. Culminating with the study and analysis of the electromagnetic phenomena in media with negative permeability and permittivity and all the theoretical inferance on how media with such characteristcs lead to specific physical observations.
 
 * Publication: [Metamaterials with Negative Permeability and Permittivity: Analysis and Applications](https://dspace.ist.utl.pt/bitstream/2295/792766/1/dissertacao.pdf)
 
@@ -32,11 +32,11 @@ My majoring focused mostly on signal processing and propagation. Culminating wit
 
 My main role at [Runtime Revolution](https://www.runtime-revolution.com/) was to design and develop custom tailored applications, mostly using Ruby on Rails and ReactJS.
 
-Heavily worked as the interface with customers since day one, gathering specs, planning and developing those applications. My role was also required building, managing and working with small to medium teams of developers. 
+Heavily worked as the interface with customers since day one, gathering specs, planning and developing those applications. My role also required building, managing and working with small to medium teams of developers. 
 
-I was also part of the staffing and recruiting team, helping as well on the technical education and integration of junior developers.
+I was also part of the staffing team working on the recruiting, technical education and integration of junior developers.
 
-The main development stack is ReactJS, TypeScript, Ruby on Rails, Python, React Native and AngularJS.
+The main development stack was ReactJS, TypeScript, Ruby on Rails, Python, React Native and AngularJS.
 
 Some of the projects I've developed may be showcased at:
 
