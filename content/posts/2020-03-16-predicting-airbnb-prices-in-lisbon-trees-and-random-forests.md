@@ -2,7 +2,7 @@
 template: post
 title: 'Predicting AirBnB prices in Lisbon: Trees and Random Forests'
 slug: predicting-airbnb-lisbon-trees-random-forests
-draft: true
+draft: false
 date: 2020-03-16T17:07:59.631Z
 description: >-
   In this small article we will quickly bootstrap a prediction model for the
