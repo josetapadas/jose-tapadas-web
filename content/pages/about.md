@@ -3,7 +3,6 @@ template: page
 title: about me
 slug: about
 draft: false
-socialImage: 'photo.jpg'
 ---
 I am recovering Electrotechnical engineer turned software developer. Professionally for the past years I've been working mostly as a full stack developer, specifically with Ruby on Rails, Python and ReactJS.
 
@@ -24,7 +23,6 @@ I've graduated as a MSc in Electrical and Computer Engineering (major: Telecommu
 My majoring focused mostly on signal processing and propagation. Culminating with the study and analysis of the electromagnetic phenomena in media with negative permeability and permittivity and all the theoretical inferance on how media with such characteristcs lead to specific physical observations.
 
 * Publication: [Metamaterials with Negative Permeability and Permittivity: Analysis and Applications](https://dspace.ist.utl.pt/bitstream/2295/792766/1/dissertacao.pdf)
-
 
 ### past work
 
@@ -50,7 +48,7 @@ Some of the projects I've developed may be showcased at:
 
 Worked as a full stack developer on a custom C templating engine, a C transaction server, specific custom Apache modules and PostgreSQL stored procedures.
 
-Built a custom RoR RESTful API wrapped around the legacy C transaction server with specific (non-ActiveRecod) models (subclassed from SuperModel for querying and serialisation) to enable bulk insertion of ads by partners. Developed full integration tests using RSpec and Capybara-Poltergeist + PhantomJS stack on the whole E2E platform.
+Participated on the creation of a custom RoR RESTful API wrapped around the legacy C transaction server with specific (non-ActiveRecod) models (subclassed from SuperModel for querying and serialisation) to enable bulk insertion of ads by partners. Developed full integration tests using RSpec and Capybara-Poltergeist + PhantomJS stack on the whole E2E platform.
 
 I’ve also developed the second version of the [CustoJusto’s Android app](https://play.google.com/store/apps/details?id=com.schibsted.iberica.custojusto&hl=en) as well as a generic caching library for the Android app that was then integrated on multiple Schibsted Android applications.
 
@@ -58,7 +56,6 @@ I’ve also developed the second version of the [CustoJusto’s Android app](htt
 
 Worked as an integration engineer of OSS/BSS middleware solutions and costumer adaptations. The role was to basically design and develop software solutions (mostly in Java EE) to enable proprietary network nodes and systems integration. Namely services involving: 
 
-- Charging System 
-- IP Multimedia Subsystem \[IMS], 
-- Mediation and Multi Activation \[EMA],  Multi Mediation \[MM], Tibco
-
+* Charging System 
+* IP Multimedia Subsystem \[IMS], 
+* Mediation and Multi Activation \[EMA],  Multi Mediation \[MM], Tibco
