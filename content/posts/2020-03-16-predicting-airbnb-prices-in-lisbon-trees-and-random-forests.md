@@ -49,7 +49,7 @@ Even though above we can confirm that the dataset was properly loaded and parsed
 airbnb_data.describe()
 ```
 
-<div>
+<div style="overflow: scroll; font-size: 11px; line-height: 14px;"> 
 <table class="dataframe">
   <thead>
     <tr style="text-align: right; font-siye="10px">
@@ -248,7 +248,7 @@ Let us now pry and have a sneak peak into the actual dataset, in order to unders
 airbnb_data.head()
 ```
 
-<div>
+<div style="overflow: scroll; font-size: 11px; line-height: 14px;">
 <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -418,7 +418,7 @@ X = airbnb_data[lisbon_features]
 X.head()
 ```
 
-<div>
+<div style="overflow: scroll; font-size: 11px; line-height: 14px;">
 <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -595,7 +595,7 @@ We can also show a snippet of the predictions, and corresponding parameters for 
 train_X.head()
 ```
 
-<div>
+<div style="overflow: scroll; font-size: 11px; line-height: 14px;">
 <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -827,7 +827,7 @@ X = airbnb_data[lisbon_features_extended]
 X.head()
 ```
 
-<div>
+<div style="overflow: scroll; font-size: 11px; line-height: 14px;">
 <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -935,7 +935,7 @@ for column in categorial_columns:
 train_X_encoded.head()
 ```
 
-<div>
+<div style="overflow: scroll; font-size: 11px; line-height: 14px;">
 <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1068,7 +1068,7 @@ validation_X_encoded_categories = pd.DataFrame(encoder.transform(validation_X[ca
 train_X_encoded_categories.head()
 ```
 
-<div>
+<div style="overflow: scroll; font-size: 11px; line-height: 14px;">
 <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1242,7 +1242,7 @@ validation_X_encoded = pd.concat([partial_validation_X, validation_X_encoded_cat
 validation_X_encoded.head()
 ```
 
-<div>
+<div style="overflow: scroll; font-size: 11px; line-height: 14px;">
 <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
