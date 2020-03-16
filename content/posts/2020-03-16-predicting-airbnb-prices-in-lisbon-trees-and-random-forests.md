@@ -6,7 +6,7 @@ draft: false
 date: 2020-03-16T17:07:59.631Z
 description: >-
   In this small article we will quickly bootstrap a prediction model for the
-  nighly prices of an AirBnB in Lisbon. This guide hopes to serve as a
+  nightly prices of an AirBnB in Lisbon. This guide hopes to serve as a
   simplistic and practical introduction to machine learning data analysis, by
   using real data and developing a real model.
 category: machine learning
