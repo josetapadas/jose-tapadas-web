@@ -6,8 +6,6 @@ draft: false
 ---
 I am recovering Electrotechnical engineer turned software developer. Professionally for the past years I've been working mostly as a full stack developer, specifically with Ruby on Rails, Python and ReactJS.
 
-Currently I'm broadening my academical knowledge and experience in the fields of Deep Learning and Statistics.
-
 ![ubs](/media/ubs.png)
 
 I am working at [UBS](https://www.ubs.com) (Zürich) as a senior UI developer. Mainly designing and developing tailored ReactJS applications for the multiple digital banking contexts.
